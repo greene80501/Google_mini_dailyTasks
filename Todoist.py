@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 from todoist_api_python.api import TodoistAPI
 
-api = TodoistAPI("819a0da713c875c3b55303f1ac4febe16553ddea")
+api = TodoistAPI("no")
 
 # Helper function to convert non-serializable objects
 def serialize_task(task):
